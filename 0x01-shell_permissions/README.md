@@ -9,3 +9,4 @@
 8-James_Bond gives no permission to owner, to group and all permissions to others
 9-john-doe gives read write and execute to owner, read and execute to group and write and execute to others
 10-mirror_permissions mirrors or copies permission mode from reference file olleh to file  hello
+11-directories_permissions add execute permission to all subdirectories of the current directory

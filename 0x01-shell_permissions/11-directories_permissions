@@ -1,2 +1,2 @@
 #!/bin/bash
-find d* -maxdepth 1 -type d -exec chmod 755 "{}" \+
+chmod -R a+X ./

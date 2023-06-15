@@ -1,0 +1,2 @@
+#!/bin/bash
+PATH=$(echo "$PATH" | sed -e 's/:\/action$//')

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Append /action to PATH if it is not already present
+if [[ ":$PATH:" != *":/action:"* ]]; then
+  export PATH="$PATH:/action"
+  echo "Added /action to PATH."
+else
+  echo "/action is already in PATH."
+fi
